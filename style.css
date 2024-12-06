@@ -1,0 +1,549 @@
+ body{
+    overflow-x: hidden;
+    font-family: 'poppins', sans-serif;
+}
+.head .logo button {
+    font-size: 20px;
+    background-color: #222222;
+    border: none;
+    cursor: pointer;
+    color: #92ccf3;
+    margin-top: 10px;
+}
+
+.head span {
+    color: #d5a153;
+    font-size: 40px;
+}
+
+.head {
+    display: flex;
+    width: 99%;
+    height: 7rem;
+    background-color: #222222;
+    border-radius: 10px;
+    position: fixed;
+    margin-top: -10px;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+     margin-left: 40px;
+    font-size: 17px;
+    color: white;
+}
+
+.navbar a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.navbar {
+    margin-left: 80px;
+    padding-top: 50px;
+}
+
+.appoint {
+    margin-left: 150px;
+    margin-top: 30px;
+}    
+
+.appoint button {
+    font-size: 15px;
+    padding: 15px;
+    padding-left: 0px;
+    padding-right: 20px;
+    background-color: #d5a153;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.appoint button:hover {
+    background-color: #ff6b6b;
+}
+
+.logo {
+    margin: 12px;
+    margin-left: 40px;
+}
+.time{
+    padding-top: 90px;
+    padding-bottom: 5px;
+    border-radius: 0 0 15px 15px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    background-color: #92ccf3;
+}
+.mid{
+    width: 100%;
+    height: 40rem;
+    background-image: url(./assets/images/hero-banner.jpg);
+    margin-top: -80px;
+    border-radius: 10px;
+}
+.mid h1{
+    font-size: 100px;
+    padding-top: 100px;
+    margin-left: 30px;
+    line-height: 150px;
+}
+.mid a button{
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #d5a153;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.provide{
+    text-align: center;
+    margin-top: 50px;
+}
+.self{
+    display: flex;
+    margin: 50px;
+    height: 30rem;
+    margin-bottom: -50px;
+    
+}
+.self img{
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+}
+.self .self1{
+    width: 30%;
+    border: 2px solid black;
+    margin: 25px;
+    border-radius: 10px;
+box-shadow: 10px solid black;
+}
+.self1 p{
+    font-size: 20px;
+}
+.self1 h2{
+    font-size: 25px;
+}
+.self1 a button{
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 10px;
+    padding-top: 15px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+}
+.self1 a button:hover{
+    background-color: #d5a153;
+    border-radius: 50%;
+}
+.main {
+    background-image: url(pricing-bg.jpg);
+    width: 100%;
+    height: 200vh;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.blur-background {
+    background: inherit;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(100px);
+}
+
+.main h1 {
+    padding: 5rem 30rem;
+    font-size: 40px;
+    margin-left: 2rem;
+}
+
+.main p {
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: -5%;
+    margin-left: 30rem;
+}
+
+.service6 {
+    width: 80.7%;
+    height: 12rem;
+    background-color: white;
+    margin-left: 10%;
+}
+
+.service5 {
+    width: 94%;
+    display: flex;
+    padding: 5px;
+    margin: 25px;
+    margin-top: 30px;
+    height: 7rem;
+}
+
+#box {
+    width: 90%;
+    border: 0.2px solid black;
+    margin: 2px 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#box h3 {
+    margin-top: -5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#box:hover {
+    background-color: #d5a153;
+}
+
+
+#box img {
+    width: 70px;
+    height: 70px;
+    padding-left: 60px;
+    margin-top: 10px;
+}
+
+#box .img:hover {
+    color: cadetblue;
+}
+
+.pricing .row1 {
+    display: flex;
+
+}
+
+.pricing .row2 {
+    display: flex;
+
+}
+
+.pricing .row3 {
+    display: flex;
+
+}
+
+.pricing .row4 {
+    display: flex;
+
+}
+
+.pricing {
+    width: 77.3%;
+    height: 50rem;
+    background-color: white;
+    margin-left: 10%;
+    padding-left: 50px;
+}
+
+.row1 {
+    height: 7rem;
+    margin-bottom: 70px;
+}
+
+.row2 {
+    height: 7rem;
+    margin-bottom: 70px;
+}
+
+.row3 {
+    height: 7rem;
+    margin-bottom: 70px;
+}
+
+.row4 {
+    height: 7rem;
+    margin-bottom: 70px;
+}
+
+.row1 .col1 {
+    border: 2px solid black;
+    width: 45%;
+    height: 8rem;
+    display: flex;
+    margin-left: 30px;
+
+}
+
+.row1 .col2 {
+    border: 2px solid black;
+    width: 45%;
+    margin-left: 30px;
+    height: 8rem;
+    display: flex;
+}
+
+.title h3 {
+    width: 250px;
+    margin-top: 50px;
+    color: #242424;
+}
+
+.title h4 {
+    width: 200px;
+    margin-top: 50px;
+    font-weight: 300;
+    margin-top: -10px;
+    color: #828280;
+
+}
+
+.col1 img {
+    margin: 20px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+.col1 h1 {
+    margin-left: -500px;
+    width: 50px;
+}
+
+.col2 img {
+    margin: 20px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+.col2 h1 {
+    margin-left: -500px;
+    width: 50px;
+}
+
+#price {
+    border: 2px solid black;
+    width: 45%;
+    height: 10rem;
+    display: flex;
+    margin-left: 50px;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: #faf5ed;
+    border: none;
+}
+
+#price h1 {
+    font-size: 30px;
+    width: 200px;
+}
+
+.rate {
+    color: #d5a255;
+    margin-top: -30px;
+    margin-left: 50px;
+}
+
+.gallery {
+    display: flex;
+    margin-left: 180px;
+    margin-top: -40px;
+}
+
+.explore {
+    margin-left: 530px;
+    margin-top: 50px;
+}
+
+.explore button {
+    font-size: 15px;
+    padding: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #d5a153;
+    color: white;
+}
+
+.text p {
+    font-size: 15px;
+    line-height: 35px;
+}
+
+.text h1 {
+    font-size: 30px;
+}
+
+.photos {
+    width: 50%;
+    display: flex;
+    margin-left: 140px;
+}
+
+.photos img {
+    width: 36%;
+    margin: 20px;
+}
+
+.photos img:hover {
+    transform: scale(1.1);
+    transition: 0.5;
+    border-radius: 20px;
+    /* box-sizing: 15px 15px rgba(10, 0, 0, 0.50); */
+}
+
+.appointment {
+    display: flex;
+    height: 45rem;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin-left: 170px;
+    margin-bottom: 50px;
+    
+}
+
+.book {
+    width: 60%;
+    background-color: #d5a153;
+}
+
+.book h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.book p {
+    text-align: center;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.email {
+    margin-left: 30px;
+}
+
+.email input {
+    font-size: 20px;
+    padding: 13px;
+    margin-right: 10px;
+    width: 42%;
+
+}
+
+#select_category{
+    width: 21vw;
+    height: 7vh;
+    cursor: pointer;
+    padding-top: -20px;
+}
+
+
+.date input {
+    width: 87%;
+    height: 3rem;
+    margin-left: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+textarea {
+    margin-left: 30px;
+    font-size: 20px;
+    width: 87%;
+    height: 15vh;
+    padding: 10px;
+}
+.book button a{
+    color: black;
+}
+.footer {
+    width: 100%;
+    height: 20rem;
+    background-color: #1f1f1f;
+}
+
+.subscribe {
+    display: flex;
+    height: 8rem;
+    border: 2px solid white;
+    margin-left: 180px;
+    margin-right: 100px;
+    margin-top: 50px;
+    width: 75%;
+
+}
+
+.subscribe .box1 {
+    width: 20%;
+    height: 5rem;
+    border: 2px solid white;
+    padding: 22px;
+    padding-left: 0px;
+    cursor: pointer;
+}
+
+.box1 button {
+    font-size: 30px;
+    background-color: #1f1f1f;
+    color: #92ccf3;
+    border: none;
+    cursor: pointer;
+}
+
+.box1 span {
+    color: #d5a153;
+}
+
+.box2 {
+    width: 80%;
+    height: 3rem;
+    display: flex;
+    margin: 30px;
+    margin-left: 10px;
+    padding-left: 50px;
+}
+
+.box2 input {
+    width: 500%;
+    border: 0;
+    outline: 0;
+    height: 4rem;
+    padding-left: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.box2 a button {
+    margin-left: -200px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #d5a153;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 3rem;
+
+}
+
+.copy {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #353639;
+    height: 3rem;
+    padding-top: 1px;
+
+}
+
+.copy span {
+    color: #d5a153;
+}
